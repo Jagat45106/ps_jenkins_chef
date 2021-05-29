@@ -5,8 +5,7 @@
 
 # Create Misc folder
 powershell_script 'create_folder' do
-  code <<-EOH
-  "New-Item -ItemType Directory -Path 'C:\\' -Name Misc_folder"
+  code 'New-Item -ItemType Directory -Path 'C:\\' -Name Misc_folder'
   EOH
 end
 
