@@ -4,6 +4,6 @@
 
 
 # Create Misc folder
-directory 'c:\\Misc_folder_jagat' do
+directory 'c:\\Misc_folder_pooju' do
   action :create
 end
