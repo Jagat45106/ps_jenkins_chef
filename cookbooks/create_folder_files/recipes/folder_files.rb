@@ -4,6 +4,6 @@
 
 
 # Create Misc folder
-directory 'c:\\' do
+directory 'c:\\Misc_folder_jagat' do
   action :create
 end
